@@ -1,0 +1,37 @@
+{
+  "name": "protractor-http-expectations",
+  "version": "0.0.0",
+  "description": "Stub and set expections for HTTP requests in Protractor tests for Angular applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dluxemburg/protractor-http-expectations.git"
+  },
+  "keywords": [
+    "protractor",
+    "angular",
+    "http",
+    "expectations",
+    "stub",
+    "mock",
+    "test"
+  ],
+  "author": "Daniel Luxemburg",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/dluxemburg/protractor-http-expectations/issues"
+  },
+  "dependencies": {
+    "connect": "~2.13.0",
+    "request": "~2.33.0",
+    "express": "~3.4.8",
+    "expect.js": "~0.2.0",
+    "q": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
